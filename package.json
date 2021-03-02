@@ -1,0 +1,37 @@
+{
+  "name": "@thiagoprz/filter-pipe",
+  "version": "0.0.1",
+  "description": "Simple filter pipe to allow searching inside array of objects with the possibility to use equals or not equal condition.",
+  "main": "dist/FilterPipe.js",
+  "types": "dist/FilterPipe.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagoprz/filter-pipe.git"
+  },
+  "keywords": [
+    "filter",
+    "pipe",
+    "angular",
+    "ionic",
+    "search"
+  ],
+  "author": "Thiago Przyczynski <przyczynski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thiagoprz/filter-pipe/issues"
+  },
+  "homepage": "https://github.com/thiagoprz/filter-pipe#readme",
+  "dependencies": {
+    "@angular/core": "^11.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  }
+}

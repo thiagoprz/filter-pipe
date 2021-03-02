@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "ES6",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": true,
+    "strict": true,
+    "outDir": "dist"
+  },
+  "files": [
+    "FilterPipe.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
