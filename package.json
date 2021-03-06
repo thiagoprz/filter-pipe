@@ -1,6 +1,6 @@
 {
   "name": "@thiagoprz/filter-pipe",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Simple filter pipe to allow searching inside array of objects with the possibility to use equals or not equal condition.",
   "main": "dist/FilterPipe.js",
   "types": "dist/FilterPipe.d.ts",
