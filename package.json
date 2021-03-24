@@ -1,0 +1,38 @@
+{
+  "name": "@thiagoprz/filter-pipe",
+  "description": "Angular Filter Pipe",
+  "version": "0.0.5",
+  "peerDependencies": {
+    "@angular/common": "^11.2.4",
+    "@angular/core": "^11.2.4"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/thiagoprz/filter-pipe.git"
+  },
+  "keywords": [
+    "pipe",
+    "angular",
+    "fulltext",
+    "full",
+    "text",
+    "search",
+    "query",
+    "strings",
+    "like",
+    "like",
+    "search"
+  ],
+  "author": "Thiago Przyczynski <przyczynski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thiagoprz/filter-pipe/issues"
+  },
+  "homepage": "https://github.com/thiagoprz/filter-pipe#readme"
+}
