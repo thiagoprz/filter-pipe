@@ -17,10 +17,12 @@ export class FilterPipe  {
     if (!items) return [];
     if (!value || value.length == 0) return items;
     return items.filter((it) => {
-      if (value.indexOf('!=') != -1) {
-        return it[field] != value.replace('!=', '');
+      const itemValue = typeof it[field] == 'string' ? it[field].toLowerCase() : it[field];
+      const filterValue = typeof value == 'string' ? value.toLowerCase() : value;
+      if (filterValue.indexOf('!=') != -1) {
+        return itemValue != filterValue.replace('!=', '');
       }
-      return it[field] == value;
+      return itemValue == filterValue;
     });
   }
 }
